@@ -14,6 +14,7 @@ import Snipet from "./components/snippet/snipet";
 import Tags from "./components/tags-example/tags";
 import TextArea from "./components/textAreaExample/textArea";
 import Toggler from "./components/toggle-example/toggler";
+import Tooltips from "./components/tooltip/tooltips";
 
 
-export {Avatars,Badges,Banners,Breadcrumbs,BreadcrumbsItem,Buttons,Checkboxes,Layout,PageData,ProgressBars,ProgressIndicators,Ranges,Snipet,Tags,TextArea,Toggler}
+export {Avatars,Badges,Banners,Breadcrumbs,BreadcrumbsItem,Buttons,Checkboxes,Layout,PageData,ProgressBars,ProgressIndicators,Ranges,Snipet,Tags,TextArea,Toggler,Tooltips}

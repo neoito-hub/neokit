@@ -99,6 +99,12 @@ Object.defineProperty(exports, "Toggler", {
     return _toggler.default;
   }
 });
+Object.defineProperty(exports, "Tooltips", {
+  enumerable: true,
+  get: function get() {
+    return _tooltips.default;
+  }
+});
 
 var _avatars = _interopRequireDefault(require("./components/avatar-example/avatars"));
 
@@ -131,5 +137,7 @@ var _tags = _interopRequireDefault(require("./components/tags-example/tags"));
 var _textArea = _interopRequireDefault(require("./components/textAreaExample/textArea"));
 
 var _toggler = _interopRequireDefault(require("./components/toggle-example/toggler"));
+
+var _tooltips = _interopRequireDefault(require("./components/tooltip/tooltips"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
