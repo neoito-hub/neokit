@@ -1,4 +1,7 @@
-### Neokit
+Neokit
+
+Neokit is a package that provides with UI components for developing fast and powerful web interfaces for front-end framework. 
+
 
 Neokit is a package developed by Neoito.
 
