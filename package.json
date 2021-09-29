@@ -1,19 +1,38 @@
 {
   "name": "neokit",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "description": "",
+  "author": "Neoito",
+  "keywords": [
+    "react",
+    "components",
+    "ui"
+  ],
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "dependencies": {
+    "@babel/polyfill": "^7.12.1",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
-    "react": "^17.0.2",
+    "next": "^11.1.2",
+    "next-images": "^1.8.1",
+    "node-sass": "^6.0.1",
+    "react-code-blocks": "0.0.9-0",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
+    "sass": "^1.42.1",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "scss": "node-sass --watch ./src/lib/assets/styles/scss -o ./src/lib/assets/styles/css",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "babel src/lib --out-dir dist --copy-files",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -34,5 +53,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "autoprefixer": "^10.3.6",
+    "postcss": "^8.3.8",
+    "tailwindcss": "^2.2.16"
   }
 }
