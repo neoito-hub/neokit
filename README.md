@@ -2,7 +2,10 @@
 
 Neokit is a package developed by Neoito.
 
-![](media/bf0c2029055ca36e09b3e67d06052a56.png)
+![NeoitoBanner](https://user-images.githubusercontent.com/87299281/135310502-3ec2b819-8ad7-4781-b442-13af45c5cb22.png)
+
+
+
 
 Getting Started
 
@@ -20,10 +23,14 @@ You have the following options to get Neokit:
     https://github.com/neoito-hub/neokit.git
 
 
+
+
 Contributing
 
 Finding bugs, sending pull requests or improving our docs - any contribution is
 welcome and highly appreciated. Thanks!
+
+
 
 
 Versioning
@@ -31,6 +38,10 @@ Versioning
 Neokit is maintained by using the Semantic Versioning Specification (SemVer).
 
 
+
+
 Browser Support
 
-![](media/5bdc3ca9cc6a31232ea206c33962dc29.png)
+![browserSupport](https://user-images.githubusercontent.com/87299281/135310907-5eb2d91e-15a4-48b2-b16d-754bb5e41b05.png)
+
+
