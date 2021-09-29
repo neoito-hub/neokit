@@ -19,14 +19,17 @@ You have the following options to get Neokit:
 -   Clone the repo to get all source files including build scripts: git clone
     https://github.com/neoito-hub/neokit.git
 
+
 Contributing
 
 Finding bugs, sending pull requests or improving our docs - any contribution is
 welcome and highly appreciated. Thanks!
 
+
 Versioning
 
 Neokit is maintained by using the Semantic Versioning Specification (SemVer).
+
 
 Browser Support
 
